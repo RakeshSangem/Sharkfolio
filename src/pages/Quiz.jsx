@@ -2,7 +2,7 @@ import Navbar from "../Components/Navbar";
 
 export default function Quiz() {
    return(
-      <main className="w-full flex bg-main-pattern items-center justify-center min-h-screen text-white relative ">
+      <main className="w-full flex bg-[url('../public/bg-ocean.png')] items-center justify-center min-h-screen text-white relative">
          <Navbar />
          <div className="flex flex-col h-full w-[60vw] rounded-3xl items-center justify-between border-[#6EE9FF] border-2 bg-[#064550]/40 mt-8">
             <h3 className="p-4 text-4xl text-[#CDEFFF] border-[#6EE9FF] border-b-2 w-full font-bold text-center">Quiz Time</h3>
