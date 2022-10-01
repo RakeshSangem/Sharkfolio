@@ -8,7 +8,7 @@ function Navbar() {
         <p className="font-Berkshire text-white text-2xl font-bold">SharkFolio</p>
       </a>
       <div className="flex items-center justify-between gap-8">
-        <a href="#" className="text-lg text-white">Fun Facts</a>
+        <a href="/#/funfact" className="text-lg text-white">Fun Facts</a>
         <a href="#" className="text-lg text-white">Quiz</a>
       </div>
     </nav>
