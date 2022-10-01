@@ -3,7 +3,7 @@ import githubIcon from'../assets/githubIcon.svg'
 
 function Navbar() {
   return(
-    <nav className=" h-[12vh] px-20 flex justify-between">
+    <nav className="w-full h-[12vh] px-20 flex justify-between absolute top-0">
       <a className="flex items-center" href="#">
         <img className="w-10" src={sharkLogo} alt="shark-logo" />
         <p className="font-Berkshire text-white text-2xl font-bold">SharkFolio</p>
