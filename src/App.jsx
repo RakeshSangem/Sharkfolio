@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import Funfacts from "./pages/Funfacts";
 // import Homepage from "./pages/Homepage";
-// import Quiz from "./pages/Quiz";
+import Quiz from "./pages/Quiz";
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -16,7 +16,7 @@ function App() {
 					<Routes>
 						{/* <Route path="home" element={<Homepage />} /> */}
 						<Route path="funfact" element={<Funfacts />} />
-            {/* <Route path="quiz" element={<Quiz />} /> */}
+            <Route path="quiz" element={<Quiz />} />
 					</Routes>
 			</HashRouter>
     </div>
