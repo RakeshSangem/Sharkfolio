@@ -1,5 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:wght@200;400;600;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wave-effect {
+  transform-origin: center center;
+  animation: wave 6s ease-in-out alternate infinite;
+}
+
+.text-shadow:hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.github-logo {
+  padding: 5px;
+  border-radius: 5px;
+  transition: 300ms;
+}
+
+.github-logo:hover {
+  background: #000000;
+}
+
+.shake-on-hover:hover {
+  animation: shake 0.2s infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: skew(0deg, 0deg) scale(1.35, 1.35);
+  }
+  50% {
+    transform: skew(2deg, 2deg) scale(1.35, 1.35);
+  }
+}
