@@ -1,6 +1,6 @@
 <div align="center">
 
-# Sharfolio -  A short portfolio of sharks
+# Sharkfolio -  A short portfolio of sharks
 
 In this project we made a portfolio for sharks with a short Quiz game some fun facts related to sharks.
 
