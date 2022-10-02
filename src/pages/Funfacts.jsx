@@ -127,7 +127,6 @@ export default function Funfacts() {
             </section>
         </main>
     );
-=======
 import shuffle from "../assets/shuffle.svg";
 
 export default function Funfacts() {
