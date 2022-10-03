@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
 
-export default function Home() {
+const Home = () => {
 
   const welcome = useRef(null);
   const shark = useRef(null);
@@ -52,3 +52,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home

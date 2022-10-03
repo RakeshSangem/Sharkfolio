@@ -49,7 +49,7 @@ const QUIZ_QUESTIONS = [
    }
 ]
 
-export default function Quiz() {
+const Quiz = () => {
    const [currentQuestion, setCurrentQuestion] = useState(0);
    const [score, setScore] = useState(0);
    const [showScore, setShowScore] = useState(false);
@@ -105,3 +105,6 @@ export default function Quiz() {
       </main>
    )
 }
+
+
+export default Quiz

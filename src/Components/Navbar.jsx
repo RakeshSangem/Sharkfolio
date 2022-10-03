@@ -1,7 +1,7 @@
 import sharkLogo from '../assets/shark-logo.svg'
 import githubIcon from'../assets/githubIcon.svg'
 
-function Navbar() {
+const Navbar = () => {
   return(
     <nav className="w-full h-[12vh] px-20 flex justify-between absolute top-0">
       <a className="flex items-center hover:scale-105 transform transition duration-300" href="#">
@@ -16,4 +16,5 @@ function Navbar() {
     </nav>
   )
 }
+
 export default Navbar
