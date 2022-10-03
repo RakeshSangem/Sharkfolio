@@ -3,7 +3,8 @@ import Funfacts from "./pages/Funfacts";
 import Home from "./pages/Home";
 import Quiz from "./pages/Quiz";
 import SharksInfo from "./pages/SharksInfo";
-function App() {
+
+const App = () => {
   return (
     <div className="font-Raleway min-h-screen">
       <HashRouter>

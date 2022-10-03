@@ -12,7 +12,8 @@
     "gsap": "^3.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.1"
+    "react-router-dom": "^6.4.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
