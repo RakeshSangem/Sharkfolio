@@ -1,59 +1,60 @@
 <div align="center">
 
-# Sharkfolio -  A short portfolio of sharks
+# 🔱 **SHARKFOLIO** 🦈
+### _A SHORT PORTFOLIO OF SHARKS_
 
-In this project we made a portfolio for sharks with a short Quiz game some fun facts related to sharks.
+In this project we made a portfolio for sharks with a short **Quiz Game** about **fun facts** related to **SHARKS!**
 
 <hr>
 </div>
 
-## Table of contents
+## **Table of contents**
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [Process](#process)
   - [Built with](#built-with)
-  - [What we learned](#what-we-learned)
+  - [What We Learned](#what-we-learned)
 - [Author](#author)
 
-## Overview
+## **Overview**
 
-### Screenshot
+### SCREENSHOTS 
 
-##### Homepage:
+##### _HOMEPAGE_:
 ![homepage](https://user-images.githubusercontent.com/54346106/193443537-deab1b57-450d-4a1b-885e-0bb417b09882.png)
 
-##### explore page:
+##### _EXPLORE PAGE_:
 ![explore](https://user-images.githubusercontent.com/54346106/193443578-fb45987c-795d-410b-87fb-658815a8422b.png)
 
-##### Fun facts:
+##### _FUN FACTS_:
 ![funfact](https://user-images.githubusercontent.com/54346106/193443617-23adb574-53d0-4e3a-8e8e-27e0b1b936cb.png)
 
-##### Short quiz:
+##### _SHORT QUIZ_:
 ![quiz](https://user-images.githubusercontent.com/54346106/193443676-af01124a-b054-4c9d-b8ab-deea7f65abfb.png)
 
-### Links
+### LINKS
 
 - Live Site URL: [Sharkfolio](https://sharkfolio.vercel.app/)
 
-## Process
+## **Process**
 
-### Built with
+### BUILT WITH
 
-- Semantic HTML5 markup.
-- Tailwind + custom CSS.
-- Vite
-- React
+- _Semantic HTML5 markup_
+- _Tailwind + custom CSS_
+- _Vite_
+- _React_
 
-### What we learned
+### WHAT WE LEARNED
 
-Learned about react, vite, deployment in vercel, github workflow, tailwind CSS.
+&emsp; Learned about React, Vite, deployment in Vercel, Github workflow, Tailwind CSS.
 
-## Author
+## **Author**
 
-Jaynarayan vaishnav :- [Github](https://github.com/jaynarayan-vaishnav),  [Twitter](https://www.twitter.com/jaystwtt)
+  🖋️ **Jaynarayan Vaishnav** :- [Github](https://github.com/jaynarayan-vaishnav),  [Twitter](https://www.twitter.com/jaystwtt)
 
-Sumit Kumar Soni :- [Github](https://github.com/zelfroster),  [Twitter](https://twitter.com/zelfroster)
+  🖋️ **Sumit Kumar Soni** :- [Github](https://github.com/zelfroster),  [Twitter](https://twitter.com/zelfroster)
 
-Rakesh Sangem :- [Github](https://github.com/RakeshSangem),  [Twitter](https://twitter.com/RakeshSangem8)
+  🖋️ **Rakesh Sangem** :- [Github](https://github.com/RakeshSangem),  [Twitter](https://twitter.com/RakeshSangem8)
