@@ -42,11 +42,11 @@ This is a project we made a portfolio for sharks with a short Quiz game some fun
 ## Process
 -->
 
-### Demo
+## Demo
 
 - Live Site URL - **[Sharkfolio](https://sharkfolio.vercel.app/)**
 
-### Tech stack
+## Tech stack
 
 ![ReactJS](https://img.shields.io/badge/ReactJS-blue?style=for-the-badge&logo=react&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-blue?style=for-the-badge&logo=tailwindcss&logoColor=white)
@@ -54,7 +54,7 @@ This is a project we made a portfolio for sharks with a short Quiz game some fun
 ![Yarn](https://img.shields.io/badge/Yarn-blue?style=for-the-badge&logo=yarn&logoColor=white)
 
 
-### Prerequisites
+## Prerequisites
 
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
@@ -64,7 +64,7 @@ Before contributing or adding a new feature, please make sure you have already i
  ```npm install --global yarn```)
 
 
-### Installation guide
+## Installation guide
 
 1. Fork the Project
 2. Clone your Forked version of Project
@@ -85,7 +85,7 @@ yarn dev
 ```
 6. 🕺🕺 
 
-### Thanks to the Contributors 🥳
+## Thanks to the Contributors 🥳
 
 <a href="https://github.com/Rakeshsangem/Sharkfolio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Rakeshsangem/Sharkfolio" />
