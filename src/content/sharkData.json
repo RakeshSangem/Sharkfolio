@@ -1,0 +1,122 @@
+[
+  {
+    "id":1,
+    "name":"Shortfin Marko Shark",
+    "description":"It also known as blue pointer and it has buller-shaped body that is built for speed",
+    "image":"https://cdn.britannica.com/79/65379-050-5CF52BAC/Shortfin-mako-shark-seas.jpg"
+  },
+  {
+    "id":2,
+    "name":"Nurse Shark",
+    "description":"Nurse sharks are known for being the most inactive type of shark on the block. In the summer, they get a new set of teeth every 10-20 days.",
+    "image":"https://welovesharks.club/wp-content/uploads/2017/04/Depositphotos_99722956_m-2015.jpg"
+  },
+  {
+    "id":3,
+    "name":"Great Hammerhead",
+    "description":"Great hammerheads have electrical receptors on their heads that give them the ability to sense nearby prey, even if it is hiding in the sand. They feed on squid, crustaceans, stingrays, and other types of sharks.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/b/bd/Great_hammerhead2.jpg"
+  },
+  {
+    "id":4,
+    "name":"Oceanic Whitetip",
+    "description":"Oceanic whitetip shark breeds are active both during the day and at night. In order to breathe, they have to keep swimming so that oxygen pumps over their gills. They prefer warmer waters and love swimming as deep down as possible.",
+    "image":"https://media.kidadl.com/Fin_tastic_Facts_About_The_Oceanic_Whitetip_Shark_For_Kids_1a384dae2a.jpg"
+  },
+  {
+    "id":5,
+    "name":"Silky Shark",
+    "description":"Silky sharks are named as such due to the silky appearance of their skin. Their body is long and slim, reaching an average of 12 feet in length. They can be found in warm, tropical waters.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Carcharhinus_falciformis_off_Cuba.jpg/1200px-Carcharhinus_falciformis_off_Cuba.jpg"
+  },
+  {
+    "id":6,
+    "name":"Great White Shark",
+    "description":"Out of all types of sharks, no other shark in the ocean invokes such an image of fear and raw power as the great white shark does. It is the largest of all the predatory sharks in the ocean today, measuring approximately 20 feet long and weighing up to 6,600 pounds.",
+    "image":"https://people.com/thmb/QmWE2NqY6NTcAbFHSH5ghPBsbPM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(659x409:661x411)/shark-10812b26a3114db5a2266efb9e3017ac.jpg"
+  },
+  {
+    "id":7,
+    "name":"Tiger Shark",
+    "description":"Named after the tiger-like stripes that adorn his body, the tiger shark loses these stripes after he reaches adulthood. Tiger sharks give birth to 80 or more embryos at a time and give birth to 30 to 35 pups in a litter.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tiger_shark.jpg/640px-Tiger_shark.jpg"
+  },
+  {
+    "id":8,
+    "name":"Lemon shark",
+    "description":"Named after the yellowish hue of their skin, lemon sharks are the most researched of all sharks. This is because they are able to be kept in captivity for long periods of time. Because of this, scientists have had a great opportunity to observe their behavior.",
+    "image":"https://media.istockphoto.com/id/149078424/photo/lemon-shark-and-sunrays.jpg?s=612x612&w=0&k=20&c=X57Wv7BT4_60_3rzhKLWrV6-2KOm7aaQY-rpatGsLy0="
+  },
+  {
+    "id":9,
+    "name":"Galapagos Shark",
+    "description":"Found near coral reefs, the gray reef shark enjoys spending their time at a depth of 200 feet. They are currently threatened by commercial fishing, as they commonly get caught in fisherman’s nets. Experts suggest that it won’t be long until they are classified as endangered sharks.",
+    "image":"https://www.animalspot.net/wp-content/uploads/2012/05/Galapagos-Shark.jpg"
+  },
+  {
+    "id":10,
+    "name":"Gray Reef Shark",
+    "description":"Named after the yellowish hue of their skin, lemon sharks are the most researched of all sharks. This is because they are able to be kept in captivity for long periods of time. Because of this, scientists have had a great opportunity to observe their behavior.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/a/a0/Grey5b.jpg"
+  },
+  {
+    "id":11,
+    "name":"Leopard Shark",
+    "description":"Some of the most common sharks found off the California coast, leopard sharks are named as such due to the dark splotches on their skin. According to the San Diego Zoo, there are no reports of anyone ever being killed by a leopard shark. Conversely, leopard sharks are sometimes caught as a food source for people.",
+    "image":"https://animals.sandiegozoo.org/sites/default/files/2017-04/animals_hero_leopard_shark.jpg"
+  },
+  {
+    "id":12,
+    "name":"Sevengill Shark",
+    "description":"Named for having seven gills on the side of their bodies as opposed to five, sevengill sharks are often known called “cow sharks.” They prey on other types of sharks, octopuses, bony fishes, and rays. Sometimes they are seen in packs seal hunting.",
+    "image":"https://www.scubadiving.com/sites/scubadiving.com/files/styles/opengraph_1_91x1/public/import/2013/files/_images/201304/caribbeanreef_maryomalley.jpg?itok=qKHJXKA7"
+  },
+  {
+    "id":13,
+    "name":"Caribbean Reef Shark",
+    "description":"Because the Caribbean reef shark enjoys swimming in shallow tropical waters, it often comes into contact with humans. Although this may evoke fear in people, Caribbean reef shark breeds are rather shy and are generally not aggressive.",
+    "image":"https://www.scubadiving.com/sites/scubadiving.com/files/styles/opengraph_1_91x1/public/import/2013/files/_images/201304/caribbeanreef_maryomalley.jpg?itok=qKHJXKA7s"
+  },
+  {
+    "id":14,
+    "name":"Sandbar Shark",
+    "description":"Averaging six feet long and weighing 110-150 pounds, the sandbar shark lives in the sandy bottoms of coastal areas. Found all over the world, sandbar sharks have been targeted by U.S. commercial shark fisheries. Natural predators of the sandbar shark include tiger sharks and great white sharks.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Carcharhinus_plumbeus_georgia.jpg"
+  },
+  {
+    "id":15,
+    "name":"Spinner Shark",
+    "description":"Spinner sharks got their name because they are known for leaping up to 20 feet out of the water and spinning around three times in the air before falling back in. In fact, they even spin upward through the water with their mouths open while they are catching schools of small fish.",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGbsnHOIANDHt8lJPFVWyezjaEYvQJDnH_gutVtHFFgUHacWuN7dcDRgP6kB7ZLiAHqwA&usqp=CAU"
+  },
+  {
+    "id":16,
+    "name":"Bonnethead Shark",
+    "description":"A member of the hammerhead family, the bonnethead shark features a unique head that is shaped like a shovel. They are one of the smallest types of hammerhead sharks. Bonnetheads rarely go out on their own, and typically travel in groups of 3-15. They can be found anywhere from the Gulf of Mexico, to North Carolina, to the Caribbean to southern Brazil.",
+    "image":"https://www.aquariumofpacific.org/images/made_new/images-uploads-bonnethead_shark_600_q85.jpg"
+  },
+  {
+    "id":17,
+    "name":"Bull Shark",
+    "description":"Found in oceans and freshwater alike, bull sharks have large bodies and a very strong bite. They are considered a potential threat to humans who venture out into the open water. Bull shark breeds have the ability to swim very far up rivers.",
+    "image":"https://oceana.org/wp-content/uploads/sites/18/shutterstock_107332190-scaled.jpg"
+  },
+  {
+    "id":18,
+    "name":"Common Thresher Shark",
+    "description":"Thresher shark breeds can grow to be about 20 feet long. Often seen jumping high out of the water, threshers are sometimes mistaken for other types of marine life. They are not commonly involved in shark attacks.   ",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Thresher.jpg/1200px-Thresher.jpg"
+  },
+  {
+    "id":19,
+    "name":"Blue Shark",
+    "description":"Blue sharks are the most fished shark in the world. They average about 12.5 feet long and weigh about 450 pounds. Their sleek, tapered body makes them fast, powerful swimmers. They prefer living in deep, cool waters.",
+    "image":"https://www.thoughtco.com/thmb/Uy1kqyoXsdg-EyflU2EdKNDrA_k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/blue-shark-150644196-5b8a9b614cedfd0025b4cdea.jpg"
+  },
+  {
+    "id":20,
+    "name":"Angel Shark",
+    "description":"A truly unique species, the angel shark looks similar to a ray. They are around 5 feet long, and weighing about 77 pounds. Other names for the angel shark include the monkfish and the sand devil. Their camouflaged bodies help them catch their prey.",
+    "image":"https://welovesharks.club/wp-content/uploads/2017/05/angelshark-2.png"
+  }
+]

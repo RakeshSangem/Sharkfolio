@@ -1,48 +1,40 @@
 import Navbar from "../Components/Navbar";
-import SharkInfo from "../Components/SharkInfo.component";
-
+import Shark from "../Components/Shark";
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
+import sharkData from "../content/sharkData.json";
 
-const SharksInfo = () => {
-
+export default function SharksInfo() {
   const cardInfo = useRef(null);
   const q2 = gsap.utils.selector(cardInfo);
 
   useEffect(() => {
-    gsap.to(q2('.card'), {
+    gsap.to(q2(".card"), {
       y: 0,
       opacity: 1,
-      stagger: .2,
-      duration: .5
-    })
-  }, [])
+      stagger: 0.2,
+      duration: 0.5,
+    });
+  }, []);
 
   return (
     <main className="w-full flex bg-normal bg-no-repeat bg-cover bg-fixed justify-center min-h-screen text-white relative ">
       <Navbar />
-      <section className="w-[80vw] mt-40">
+      <section className="w-full mt-20">
         <div className="flex flex-col items-center justify-between gap-12">
           <div className="text-center drop-shadow-lg">
-            <h3 className="text-white text-6xl font-semibold">Sharks Info</h3>
+            <h3 className="text-white text-4xl font-semibold">Sharks Info</h3>
           </div>
-          <div className="grid grid-cols-3 gap-20" ref={cardInfo}>
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
-            <SharkInfo information="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repudiandae." />
+          <div
+            className="flex gap-8 justify-center items-center flex-wrap"
+            ref={cardInfo}
+          >
+            {sharkData.map((item) => (
+              <Shark key={item.id} item={item} />
+            ))}
           </div>
         </div>
       </section>
     </main>
   );
 }
-
-
-export default SharksInfo
