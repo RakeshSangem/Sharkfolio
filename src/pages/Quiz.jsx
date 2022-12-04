@@ -74,13 +74,13 @@ const Quiz = () => {
   return (
     <main className="bg-normal bg-no-repeat bg-cover bg-fixed w-full flex items-center justify-center min-h-screen text-white relative">
       <Navbar />
-      <section className="grid">
-        <div className="flex flex-col h-full w-[50vw] rounded-3xl items-center justify-between bg-gradient-to-t from-[#07394B]/40 to-[#091B24]/30 border-[#6EE9FF] border-2 bg-[#064550]/40 mt-8 ">
-          <h3 className="p-4 text-4xl text-[#CDEFFF] border-[#6EE9FF] border-b-2 w-full font-semibold text-center">
+      <section className="w-screen h-screen grid place-content-center sm:px-4">
+        <div className="flex flex-col w-[43rem] bg-blue-400 rounded-3xl items-center justify-between bg-gradient-to-t from-[#07394B]/40 to-[#091B24]/30 border-[#6EE9FF] border-2 bg-[#064550]/40 mt-8 sm:w-[20rem] md:max-w-[90vw]">
+          <h3 className="p-4 text-4xl text-[#CDEFFF] border-[#6EE9FF] border-b-2 w-full font-semibold text-center sm:text-2xl md:px-6 ">
             Quiz Time
           </h3>
           {showScore ? (
-            <div className="flex flex-col mb-10 text-center">
+            <div className="flex flex-col mb-10 text-center ">
               <p className="text-2xl">
                 You have scored {score} out of {QUIZ_QUESTIONS.length}
               </p>
@@ -94,20 +94,20 @@ const Quiz = () => {
             </div>
           ) : (
             <>
-              <h2 className="text-3xl text-[#70D9FF] text-center py-12 font-semibold tracking-wide">
+              <h2 className="text-3xl text-[#70D9FF] text-center py-12 font-semibold tracking-wide sm:text-xl sm:py-2 md:text-2xl md:px-4">
                 {QUIZ_QUESTIONS[currentQuestion].Question}
               </h2>
-              <div className="grid grid-cols-2 gap-x-10 px-10 gap-y-10 w-full pb-10">
+              <div className="grid grid-cols-2 gap-x-10 px-10 gap-y-10 w-full pb-10 sm:grid-cols-1 sm:gap-3 sm:py-4">
                 {QUIZ_QUESTIONS[currentQuestion].Answers.map((answer) => (
                   <button
-                    className="border-[#6EE9FF] border-2 rounded-full p-2 text-[#70D9FF] font-semibold transform transition duration-500 hover:scale-105 hover:bg-[#6EE9FF] hover:text-black"
+                    className="border-[#6EE9FF] border-2 rounded-full p-2 text-[#70D9FF] font-semibold transform transition duration-500 hover:scale-105 hover:bg-[#6EE9FF] hover:text-black sm:p-1"
                     onClick={() => handleAnswerResponse(answer.isCorrect)}
                   >
                     {answer.Answer}
                   </button>
                 ))}
               </div>
-              <div className="text-xl rounded-[15px] px-3 py-1  text-[#6EE9FF]  mb-8">
+              <div className="text-xl rounded-[15px] px-3 py-1  text-[#6EE9FF] mb-8 sm:my-2">
                 <p id="p-number">
                   {currentQuestion + 1}
                   <span>/{QUIZ_QUESTIONS.length}</span>
