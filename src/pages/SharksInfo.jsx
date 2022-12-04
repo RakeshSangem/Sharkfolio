@@ -20,13 +20,15 @@ export default function SharksInfo() {
   return (
     <main className="w-full flex bg-normal bg-no-repeat bg-cover bg-fixed justify-center min-h-screen text-white relative ">
       <Navbar />
-      <section className="w-full mt-20">
+      <section className="w-full my-20">
         <div className="flex flex-col items-center justify-between gap-12">
           <div className="text-center drop-shadow-lg">
-            <h3 className="text-white text-4xl font-semibold">Sharks Info</h3>
+            <h3 className="text-white text-4xl font-semibold drop-shadow-xl">
+              Sharks Info
+            </h3>
           </div>
           <div
-            className="flex gap-8 justify-center items-center flex-wrap"
+            className="flex gap-10 justify-center items-center flex-wrap"
             ref={cardInfo}
           >
             {sharkData.map((item) => (

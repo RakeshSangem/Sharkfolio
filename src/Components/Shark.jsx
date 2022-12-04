@@ -6,7 +6,7 @@ Shark.propTypes = {
 export default function Shark({ item }) {
   console.log(item);
   return (
-    <section className="max-w-xs h-[350px] border rounded-lg shadow-md bg-[#0a333d] border-[#205f6e] overflow-hidden backdrop-blur-[3px]">
+    <section className="max-w-xs h-[350px] border rounded-lg shadow-md bg-black/30 border-[#205f6e] overflow-hidden backdrop-blur-[3px]">
       <div className="h-2/4 bg-blue-100 overflow-hidden object-cover">
         <img className="w-full h-full origin-center" src={item.image} />
       </div>
